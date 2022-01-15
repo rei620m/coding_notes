@@ -20,4 +20,5 @@
 | <code>git restore [file_name.ext]</code>     | Discard changes and restore previous version  |
 | <code>git commit -m"message"</code> | Commit changes |
 | <code>git log [file_name.ext]</code> | View changes |
+| <code>q</code> or <code>z</code>| Exit log |
 | <code>git checkout [commit_id]</code> | Revert to previous version |
