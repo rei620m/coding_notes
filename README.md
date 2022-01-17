@@ -22,3 +22,11 @@
 | <code>git log [file_name.ext]</code> | View changes |
 | <code>q</code> or <code>z</code>| Exit log |
 | <code>git checkout [commit_id]</code> | Revert to previous version |
+
+
+# terminal_commands
+|    Command    |  Description  |
+| ------------- | ------------- |
+| <code>pwd</code>     | Check current directory  |
+| <code>cd</code>     | Change directory  |
+| <code>ls</code>     | Listing directory (view contents)  |
