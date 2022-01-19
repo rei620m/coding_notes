@@ -6,6 +6,7 @@
 | ------------- | ------------- |
 | <code>git clone</code>     | Create a local copy of a remote repository  |
 | <code>git status</code>     | Check status  |
+| <code>git ｂranch</code>     | See local branches  |
 | <code>git checkout -b</code> | Create a new branch and switch to it |
 | <code>git checkout [branch name]</code> | Switch to a branch |
 | <code>git checkout -</code> | Switch to the branch last checked out |
@@ -19,7 +20,8 @@
 | <code>git add -a</code> | Add all new and changed files to staging |
 | <code>git restore [file_name.ext]</code>     | Discard changes and restore previous version  |
 | <code>git commit -m"message"</code> | Commit changes |
-| <code>git log [file_name.ext]</code> | View changes |
+| <code>git log</code> | View all changes |
+| <code>git log [file_name.ext]</code> | View changes to file |
 | <code>q</code> or <code>z</code>| Exit log |
 | <code>git checkout [commit_id]</code> | Revert to previous version |
 
