@@ -6,7 +6,7 @@
 | ------------- | ------------- |
 | <code>git clone</code>     | Create a local copy of a remote repository  |
 | <code>git status</code>     | Check status  |
-| <code>git ｂranch</code>     | See local branches  |
+| <code>git branch</code>     | See local branches  |
 | <code>git checkout -b</code> | Create a new branch and switch to it |
 | <code>git checkout [branch name]</code> | Switch to a branch |
 | <code>git checkout -</code> | Switch to the branch last checked out |
