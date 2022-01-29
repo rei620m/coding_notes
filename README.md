@@ -32,4 +32,5 @@
 | <code>pwd</code>    | Check current directory  |
 | <code>cd</code>     | Change directory  |
 | <code>ls</code>     | Listing directory (view contents)  |
-| <code>pkill -x [app name]</code>     | Force quit app  |
+| <code>pkill -x [app name]</code>     | Force quit app  on Mac|
+| <code>taskkill /im [app name.exe] /t /f</code>     | Force quit app  on Windows|
