@@ -32,7 +32,18 @@
 | <code>pwd</code>    | Check current directory  |
 | <code>cd</code>     | Change directory  |
 | <code>ls</code>     | Listing directory (view contents)  |
-| <code>pkill -x [app name]</code>     | Force quit app on Mac|
-| <code>taskkill /im [app name.exe] /t /f</code>     | Force quit app on Windows|
 | <code>cmd</code>     | Command prompt|
-| <code>shutdown /r</code>     | Restart on Windows|
+
+
+<h3>Windows</h3>
+
+|    Command    |  Description  |
+| ------------- | ------------- |
+| <code>taskkill /im [app name.exe] /t /f</code>     | Force quit app|
+| <code>shutdown /r</code>     | Restart computer|
+
+<h3>Mac</h3>
+
+|    Command    |  Description  |
+| ------------- | ------------- |
+| <code>pkill -x [app name]</code>     | Force quit app on Mac|
