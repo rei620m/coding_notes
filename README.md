@@ -26,6 +26,7 @@
 | <code>git log [file_name.ext]</code> | View changes to file |
 | <code>q</code> or <code>z</code>| Exit log |
 | <code>git checkout [commit_id]</code> | Revert to previous version |
+| <code>git stash</code> | Save uncommitted changes locally |
 
 
 # terminal_commands
