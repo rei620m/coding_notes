@@ -6,3 +6,4 @@
 |Declare code block|<code>%%[</code> AMPscript goes here <code>]%%</code>|<code><script runat=server></code> SSJS goes here <code></script></code>|
 |Write value|oututline(v(@variable))|<code>Write(ContentBlockByKey('1a1a111a-0111-1111-a111-a111a111111a'))</code>|
 |IF statement|SET @a = 1 <br><BR>IF @a == 1 THEN<br>&nbsp;&nbsp;&nbsp;&nbsp;SET @b = "true"<br>&nbsp;&nbsp;ELSE<br>&nbsp;&nbsp;&nbsp;&nbsp;SET @b = "false"<br>ENDIF|<code>var a = 1;</code><br><code>if (a == 1) {</code><br><code>   Write ("true");</code><br><code>) else (</code><br><code>   Write("false");</code><br><code>}</code>|
+|For loop|FOR @a = 1 to 10 do<br>outputline(v(@a)<br>NEXT @a|<code>for(var a = 0; a <= 10; a++) {</code><br><code>   Write (a+ "`<br>`");</code><br><code>}</code>
